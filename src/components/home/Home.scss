@@ -4,9 +4,11 @@ $main_font: sans-serif;
 
 .main_container {
   padding: 0 $padding_desktop;
-  background-color: $home_page_color;
-  height: 850px;
+  height: 100vh;
   display: flex;
+  background-image: url('../../images/background-1.jpg');
+  background-size: cover;
+  background-position: center;
 
   &-text {
     display: flex;
@@ -21,4 +23,9 @@ $main_font: sans-serif;
     text-transform: uppercase;
     margin-bottom: 55px;
   }
+}
+
+.menu_container {
+  display: flex;
+  justify-content: center;
 }
