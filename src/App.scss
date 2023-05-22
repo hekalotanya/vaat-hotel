@@ -1,0 +1,47 @@
+$padding_desktop: 70px;
+$home_page_color: #EBB96E;
+$main_font: sans-serif;
+
+.header {
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px $padding_desktop 120px;
+  background-color: $home_page_color;
+  font-family: $main_font;
+
+  &-tab {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+  }
+}
+
+.logo {
+  width: 130px;
+  font-size: 40px;
+  color: white;
+}
+
+.button {
+  border: 1px solid white;
+  height: 60px;
+  width: max-content;
+  border-radius: 100vw;
+  background-color: $main_font;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+
+  &-text {
+    padding: 0 55px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+  }
+}
+
+

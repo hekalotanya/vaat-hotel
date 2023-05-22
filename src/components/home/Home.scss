@@ -1,0 +1,24 @@
+$padding_desktop: 70px;
+$home_page_color: #EBB96E;
+$main_font: sans-serif;
+
+.main_container {
+  padding: 0 $padding_desktop;
+  background-color: $home_page_color;
+  height: 850px;
+  display: flex;
+
+  &-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+  }
+
+  &-title {
+    font-size: $main_font;
+    font-size: 35px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 55px;
+  }
+}
