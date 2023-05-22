@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/vaat-hotel/static/css/main.9d089cd1.css",
+    "main.js": "/vaat-hotel/static/js/main.156a2468.js",
+    "static/js/787.45bc1ed9.chunk.js": "/vaat-hotel/static/js/787.45bc1ed9.chunk.js",
+    "index.html": "/vaat-hotel/index.html",
+    "main.9d089cd1.css.map": "/vaat-hotel/static/css/main.9d089cd1.css.map",
+    "main.156a2468.js.map": "/vaat-hotel/static/js/main.156a2468.js.map",
+    "787.45bc1ed9.chunk.js.map": "/vaat-hotel/static/js/787.45bc1ed9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d089cd1.css",
+    "static/js/main.156a2468.js"
+  ]
+}
